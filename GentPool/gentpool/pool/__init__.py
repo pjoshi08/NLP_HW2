@@ -9,3 +9,7 @@ from .vanilla_template import *
 from .openai_memory_template import *
 from .vanilla-ziyu import *
 from .scholar-ziyu import *
+from .vanilla_llm_agent import *
+from .scholar_agent import *
+from .openai_agent import *
+from .my_agent import *

@@ -1,0 +1,47 @@
+INFO:root:Creating Config from file: ./gentpool/pool/my_agent/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/my_agent/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/my_agent/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:my_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_agent: 
+INFO:root:{"name":"google_calendar_tool", "arguments":{"events":"summary"}}
+
+INFO:root:Calling function: google_calendar_tool ...
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:2024-03-11T12:00:00+05:30SWE 621
+2024-03-11T19:20:00+05:30CS 678
+2024-03-12T10:30:00+05:30SWE 205 TA
+2024-03-13T12:00:00+05:30SWE 621
+2024-03-14T10:30:00+05:30SWE 205 TA
+2024-03-15T11:30:00+05:30SWE 205 Grading
+2024-03-18T12:00:00+05:30SWE 621
+2024-03-18T19:20:00+05:30CS 678
+2024-03-19T10:30:00+05:30SWE 205 TA
+2024-03-20T12:00:00+05:30SWE 621
+
+INFO:root:--------------------
+INFO:root:my_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_agent: 
+INFO:root:Here is a summary of your Google Calendar events:
+
+1. March 11, 2024 - SWE 621 at 12:00 PM
+2. March 11, 2024 - CS 678 at 7:20 PM
+3. March 12, 2024 - SWE 205 TA at 10:30 AM
+4. March 13, 2024 - SWE 621 at 12:00 PM
+5. March 14, 2024 - SWE 205 TA at 10:30 AM
+6. March 15, 2024 - SWE 205 Grading at 11:30 AM
+7. March 18, 2024 - SWE 621 at 12:00 PM
+8. March 18, 2024 - CS 678 at 7:20 PM
+9. March 19, 2024 - SWE 205 TA at 10:30 AM
+10. March 20, 2024 - SWE 621 at 12:00 PM
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:
+[red]Bye!
