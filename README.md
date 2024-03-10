@@ -65,3 +65,24 @@ Sometimes an agent can upset you. To wipe it out completely,
 ./delete_agent <your_agent_name> 
 ```
 
+## Implement custom LLM Agent with Google Calendar Tool Augmentation
+As a bonus, we have created a Google Calender agent which is augmented with multiple functions to access Google Calendar API in real time.
+
+This is based on the `my_agent` agent we have created in the pool. As before, in this demo we simply clone it:
+```
+./clone_agent my_agent <your_agent_name>
+```
+Like before, this command created an agent under `./GentPool/gentpool/pool/<your_agent_name>`. Note from its configuration that this Google Calender agent is an `openai`-type agent. As stated in its [Gentopia's implementation](./Gentopia/gentopia/agent/openai), this type of agent allows for function calling:
+> OpenAIFunctionChatAgent class inherited from BaseAgent. Implementing OpenAI function call api as agent.
+
+To use this agent, you first need to complete the steps mentioned in the [Google Calender API documentation](https://developers.google.com/calendar/api/quickstart/python) to setup and aquire the API key to use the Calender API.
+
+Now, you are all set to query this calendar agent to get the summary of the events in your personal google calendar.
+
+
+## Remove an Agent
+Sometimes an agent can upset you. To wipe it out completely,
+```
+./delete_agent <your_agent_name> 
+```
+
